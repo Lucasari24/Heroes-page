@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EEF0F4;
+    font-family: sans-serif;
+}
+
+.section-container {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+article {
+    width: 25%;
+    height: 30em;
+    display: inline-block;
+    margin: 10em 3em;
+    position: relative;
+    background-color: #D7DAE1;
+    box-shadow: 2px 0px 15px #000;
+    border-radius: 5px 5px 0 0;
+}
+
+.image-container {
+    width: 100%;
+    height: 30%;
+    background-image: url(./fondo-batman.jpeg);
+    background-position: center;
+    border-radius: 5px 5px 0 0;
+}
+
+article i {
+    position: absolute;
+    color: red;
+    font-size: 2em;
+    left: 15px;
+    top: 20px;
+}
+
+.foto {
+    clip-path: circle(50% at 50% 50%);
+    width: 100px;
+    margin: 0 auto;
+    position: relative;
+    top: -3em;
+}
+
+img{
+    height: 100px;
+    object-position: center;
+    margin: 0 -2.5em;
+}
+
+article h2 {
+    text-align: center;
+    font-size: 2em;
+    position: relative;
+    top: -15px;
+}
+
+article p {
+    margin: 1em 1em;
+}
+
+button {
+    text-align: center;
+    display: block;
+    margin: 1.3em auto;
+    width: 150px;
+    height: 3em;
+    font-size: 1em;
+    font-weight: bold;
+    color: #000;
+    background-color: #2DEA03;
+    border: 0;
+
+}
